@@ -12,7 +12,7 @@ public class FirstTest {
         driver.get("http:google.com");
 
         WebElement searchBox = driver.findElement(By.name("q"));
-        searchBox.sendKeys("Chromedriver download");
+        searchBox.sendKeys("Chrome driver download");
         searchBox.submit();
 
         Thread.sleep(3000);
